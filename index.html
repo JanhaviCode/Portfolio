@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janhavi Kanojia | B.Tech CSE Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80" tabindex="0">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#home">
+                <span class="brand-badge">JK</span>
+                <span>Janhavi Kanojia</span>
+            </a>
+            
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list fs-2"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-1 gap-lg-3 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="d-flex align-items-center ms-lg-3 gap-2 pt-2 pt-lg-0 border-top border-lg-0">
+                    <!-- Theme Toggle Button -->
+                    <button id="themeToggle" class="btn btn-theme-toggle" type="button" aria-label="Toggle theme" title="Toggle Light/Dark Theme">
+                        <i class="bi bi-moon-stars-fill theme-icon-active"></i>
+                    </button>
+                    <a href="#contact" class="btn btn-primary btn-sm rounded-pill px-3 py-2 fw-medium d-none d-lg-inline-block">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-vh-100 d-flex align-items-center position-relative hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7 text-center text-lg-start">
+                    <div class="badge-pill mb-3 d-inline-flex align-items-center gap-2">
+                        <span class="status-indicator"></span>
+                        <span>B.Tech CSE • 2nd Year (3rd Sem)</span>
+                    </div>
+                    <h1 class="display-3 fw-bolder mb-3 hero-title">
+                        Hi, I'm <span class="gradient-text">Janhavi Kanojia</span>.
+                    </h1>
+                    <p class="lead text-secondary mb-4 col-lg-11 hero-subtitle">
+                        Computer Science &amp; Engineering undergraduate at G.L. Bajaj Institute of Technology and Management (2025–2029). Passionate about problem solving with C++, Python, and building responsive modern web applications.
+                    </p>
+                    <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+                        <a href="mailto:janhaviiee97@gmail.com" class="btn btn-primary rounded-pill px-4 py-2 fw-semibold shadow-sm">
+                            <i class="bi bi-envelope-at-fill me-2"></i>Email Me
+                        </a>
+                        <a href="#skills" class="btn btn-outline-secondary rounded-pill px-4 py-2 fw-semibold">
+                            <i class="bi bi-code-slash me-2"></i>My Skills
+                        </a>
+                        <a href="https://github.com/JanhaviCode" target="_blank" class="btn btn-outline-primary rounded-pill px-3 py-2 fw-semibold">
+                            <i class="bi bi-github me-1"></i>GitHub
+                        </a>
+                        <a href="https://leetcode.com/u/JanahviCode/" target="_blank" class="btn btn-leetcode rounded-pill px-3 py-2 fw-semibold">
+                            <i class="bi bi-code-square me-1"></i>LeetCode
+                        </a>
+                    </div>
+
+                    <!-- Quick Metrics (No GPA, 50+ LeetCode) -->
+                    <div class="row g-3 pt-5 justify-content-center justify-content-lg-start">
+                        <div class="col-auto">
+                            <div class="metric-card">
+                                <h4 class="fw-bold mb-0 text-primary">50+</h4>
+                                <small class="text-secondary">LeetCode Problems</small>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="metric-card">
+                                <h4 class="fw-bold mb-0">3rd Sem</h4>
+                                <small class="text-secondary">2nd Year CSE</small>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="metric-card">
+                                <h4 class="fw-bold mb-0">2025–29</h4>
+                                <small class="text-secondary">B.Tech Batch</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 text-center">
+                    <div class="avatar-card mx-auto">
+                        <div class="avatar-glow"></div>
+                        <div class="avatar-inner">
+                            <span class="avatar-monogram">JK</span>
+                        </div>
+                        <div class="floating-badge badge-1 shadow">
+                            <i class="bi bi-code-slash text-primary"></i>
+                            <span>C++ &amp; Python</span>
+                        </div>
+                        <div class="floating-badge badge-2 shadow">
+                            <i class="bi bi-check2-circle text-success"></i>
+                            <span>50+ LeetCode Solved</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 section-alt">
+        <div class="container py-4">
+            <div class="text-center max-w-700 mx-auto mb-5">
+                <span class="text-primary fw-semibold text-uppercase tracking-wider">Background</span>
+                <h2 class="fw-bold display-6 mt-1">About Me</h2>
+                <p class="text-secondary">Passionate engineering student developing strong algorithmic foundations and web development skills.</p>
+            </div>
+
+            <div class="row g-4 align-items-center">
+                <!-- Education Timeline -->
+                <div class="col-lg-6">
+                    <div class="card p-4 rounded-4 shadow-sm border-0 h-100">
+                        <h4 class="fw-bold mb-3"><i class="bi bi-mortarboard-fill text-primary me-2"></i>Education</h4>
+                        <div class="timeline ps-3 border-start">
+                            <!-- College -->
+                            <div class="timeline-item mb-4 position-relative ps-3">
+                                <div class="timeline-dot"></div>
+                                <span class="badge bg-primary-subtle text-primary mb-1">2025 - 2029 (Currently in 3rd Sem)</span>
+                                <h6 class="fw-bold mb-1">Bachelor of Technology (B.Tech) - Computer Science &amp; Engineering</h6>
+                                <p class="text-secondary small mb-1 fw-medium">G.L. Bajaj Institute of Technology and Management, Greater Noida</p>
+                                <small class="text-muted">Focusing on Object-Oriented Programming, Data Structures, and Core Computing Fundamentals.</small>
+                            </div>
+                            
+                            <!-- Class XII -->
+                            <div class="timeline-item mb-4 position-relative ps-3">
+                                <div class="timeline-dot"></div>
+                                <span class="badge bg-secondary-subtle text-secondary mb-1">Class XII (Senior Secondary)</span>
+                                <h6 class="fw-bold mb-1">Brightland School, Lucknow</h6>
+                                <p class="text-secondary small mb-0">High School Science stream foundation.</p>
+                            </div>
+
+                            <!-- Class X -->
+                            <div class="timeline-item position-relative ps-3">
+                                <div class="timeline-dot"></div>
+                                <span class="badge bg-secondary-subtle text-secondary mb-1">Class X (Secondary)</span>
+                                <h6 class="fw-bold mb-1">Brightland School, Lucknow</h6>
+                                <p class="text-secondary small mb-0">Completed secondary education with strong analytical basics.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Focus -->
+                <div class="col-lg-6">
+                    <div class="card p-4 rounded-4 shadow-sm border-0 h-100">
+                        <h4 class="fw-bold mb-3"><i class="bi bi-stars text-primary me-2"></i>Current Focus &amp; Interests</h4>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="d-flex align-items-start gap-3 p-3 rounded-3 hover-bg-subtle">
+                                <div class="feature-icon icon-indigo-subtle rounded-3 p-2">
+                                    <i class="bi bi-braces-asterisk fs-5"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fw-semibold mb-1">Competitive Programming &amp; DSA</h6>
+                                    <p class="text-secondary small mb-0">Active problem solver with <strong>50+ questions solved on LeetCode</strong>, continually sharpening logic and algorithmic problem solving.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start gap-3 p-3 rounded-3 hover-bg-subtle">
+                                <div class="feature-icon icon-emerald-subtle rounded-3 p-2">
+                                    <i class="bi bi-laptop fs-5"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fw-semibold mb-1">Front-End Development</h6>
+                                    <p class="text-secondary small mb-0">Crafting clean, accessible, and responsive user interfaces with semantic HTML, CSS, JavaScript, and Bootstrap.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start gap-3 p-3 rounded-3 hover-bg-subtle">
+                                <div class="feature-icon icon-cyan-subtle rounded-3 p-2">
+                                    <i class="bi bi-code-slash fs-5"></i>
+                                </div>
+                                <div>
+                                    <h6 class="fw-semibold mb-1">Programming in C++ &amp; Python</h6>
+                                    <p class="text-secondary small mb-0">Implementing object-oriented concepts, memory management fundamentals in C++, and scripting automation in Python.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section (Only HTML, CSS, JS, Python, C++) -->
+    <section id="skills" class="py-5">
+        <div class="container py-4">
+            <div class="text-center max-w-700 mx-auto mb-5">
+                <span class="text-primary fw-semibold text-uppercase tracking-wider">Tech Stack</span>
+                <h2 class="fw-bold display-6 mt-1">My Skills</h2>
+                <p class="text-secondary">Core programming languages and web technologies I work with.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Skill Card 1: C++ -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card p-4 rounded-4 shadow-sm border-0 h-100 skill-card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="skill-badge-icon skill-icon-cpp">C++</span>
+                                <h5 class="fw-bold mb-0">C++</h5>
+                            </div>
+                            <span class="badge bg-primary-subtle text-primary">Core &amp; DSA</span>
+                        </div>
+                        <p class="text-secondary small mb-3">Used for solving data structures and competitive programming problems on LeetCode.</p>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-semibold">Proficiency</span>
+                                <span class="small text-secondary">85%</span>
+                            </div>
+                            <div class="progress skill-progress" data-skill="85">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 2: Python -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card p-4 rounded-4 shadow-sm border-0 h-100 skill-card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="skill-badge-icon skill-icon-python"><i class="bi bi-filetype-py"></i></span>
+                                <h5 class="fw-bold mb-0">Python</h5>
+                            </div>
+                            <span class="badge bg-warning-subtle text-warning-emphasis">Language</span>
+                        </div>
+                        <p class="text-secondary small mb-3">Clean syntax programming for scripting, logic implementation, and foundational computing.</p>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-semibold">Proficiency</span>
+                                <span class="small text-secondary">80%</span>
+                            </div>
+                            <div class="progress skill-progress" data-skill="80">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 3: JavaScript -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card p-4 rounded-4 shadow-sm border-0 h-100 skill-card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="skill-badge-icon skill-icon-js"><i class="bi bi-filetype-js"></i></span>
+                                <h5 class="fw-bold mb-0">JavaScript</h5>
+                            </div>
+                            <span class="badge bg-primary-subtle text-primary">Web Logic</span>
+                        </div>
+                        <p class="text-secondary small mb-3">Building dynamic user interactions, DOM manipulation, events, and modern ES6+ features.</p>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-semibold">Proficiency</span>
+                                <span class="small text-secondary">75%</span>
+                            </div>
+                            <div class="progress skill-progress" data-skill="75">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 4: HTML -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card p-4 rounded-4 shadow-sm border-0 h-100 skill-card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="skill-badge-icon skill-icon-html"><i class="bi bi-filetype-html"></i></span>
+                                <h5 class="fw-bold mb-0">HTML5</h5>
+                            </div>
+                            <span class="badge bg-danger-subtle text-danger">Structure</span>
+                        </div>
+                        <p class="text-secondary small mb-3">Semantic web markup, accessibility best practices, and clean page structuring.</p>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-semibold">Proficiency</span>
+                                <span class="small text-secondary">90%</span>
+                            </div>
+                            <div class="progress skill-progress" data-skill="90">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 5: CSS -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card p-4 rounded-4 shadow-sm border-0 h-100 skill-card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="skill-badge-icon skill-icon-css"><i class="bi bi-filetype-css"></i></span>
+                                <h5 class="fw-bold mb-0">CSS3</h5>
+                            </div>
+                            <span class="badge bg-info-subtle text-info">Styling &amp; Flex</span>
+                        </div>
+                        <p class="text-secondary small mb-3">Responsive layouts, Flexbox, Grid, transitions, and modern Bootstrap framework styling.</p>
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-semibold">Proficiency</span>
+                                <span class="small text-secondary">85%</span>
+                            </div>
+                            <div class="progress skill-progress" data-skill="85">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Project Coming Soon) -->
+    <section id="projects" class="py-5 section-alt">
+        <div class="container py-4">
+            <div class="text-center max-w-700 mx-auto mb-5">
+                <span class="text-primary fw-semibold text-uppercase tracking-wider">Portfolio</span>
+                <h2 class="fw-bold display-6 mt-1">Projects</h2>
+                <p class="text-secondary">Explore my practical implementations and technical builds.</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card p-5 rounded-4 border-0 shadow-sm text-center coming-soon-card">
+                        <div class="coming-soon-icon-wrapper mb-4 mx-auto">
+                            <div class="coming-soon-icon">
+                                <i class="bi bi-rocket-takeoff-fill fs-1 text-primary"></i>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill d-inline-block mx-auto mb-3 fw-semibold">
+                            In Active Development
+                        </span>
+                        <h3 class="fw-bold mb-3">Projects Coming Soon!</h3>
+                        <p class="text-secondary col-md-10 mx-auto mb-4">
+                            Currently working on exciting full-stack web applications and DSA projects using <strong>C++, Python, HTML, CSS, and JavaScript</strong>. Projects will be uploaded soon along with live demos and GitHub repositories!
+                        </p>
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <a href="https://github.com/JanhaviCode" target="_blank" class="btn btn-primary rounded-pill px-4 py-2 fw-semibold">
+                                <i class="bi bi-github me-2"></i>Follow My GitHub
+                            </a>
+                            <a href="https://leetcode.com/u/JanahviCode/" target="_blank" class="btn btn-outline-secondary rounded-pill px-4 py-2 fw-semibold">
+                                <i class="bi bi-code-slash me-2"></i>View LeetCode Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container py-4">
+            <div class="text-center max-w-700 mx-auto mb-5">
+                <span class="text-primary fw-semibold text-uppercase tracking-wider">Connect</span>
+                <h2 class="fw-bold display-6 mt-1">Get In Touch</h2>
+                <p class="text-secondary">Feel free to connect for academic discussions, collaborative projects, or networking.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Info Column -->
+                <div class="col-lg-5">
+                    <div class="card p-4 rounded-4 border-0 shadow-sm h-100">
+                        <h4 class="fw-bold mb-3">Contact Information</h4>
+                        <p class="text-secondary small mb-4">You can reach me directly or connect through my developer profiles below.</p>
+                        
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <div class="feature-icon icon-indigo-subtle rounded-3 p-2">
+                                <i class="bi bi-envelope-at-fill fs-5"></i>
+                            </div>
+                            <div>
+                                <small class="text-secondary d-block">Direct Email</small>
+                                <a href="mailto:janhaviiee97@gmail.com" class="fw-semibold text-primary text-decoration-none">
+                                    janhaviiee97@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <div class="feature-icon icon-indigo-subtle rounded-3 p-2">
+                                <i class="bi bi-mortarboard-fill fs-5"></i>
+                            </div>
+                            <div>
+                                <small class="text-secondary d-block">Institute</small>
+                                <span class="fw-semibold">G.L. Bajaj Institute of Technology &amp; Management</span>
+                                <small class="text-muted d-block">B.Tech CSE (Batch 2025–2029)</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <div class="feature-icon icon-indigo-subtle rounded-3 p-2">
+                                <i class="bi bi-geo-alt-fill fs-5"></i>
+                            </div>
+                            <div>
+                                <small class="text-secondary d-block">Location</small>
+                                <span class="fw-semibold">Greater Noida / Lucknow, India</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <div class="feature-icon icon-indigo-subtle rounded-3 p-2">
+                                <i class="bi bi-linkedin fs-5"></i>
+                            </div>
+                            <div>
+                                <small class="text-secondary d-block">LinkedIn</small>
+                                <a href="https://www.linkedin.com/in/janhavi-kanojiaaa" target="_blank" class="fw-semibold text-decoration-none">
+                                    janhavi._ kanojiaaa
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <h6 class="fw-bold mb-3">Developer Profiles</h6>
+                        <div class="d-flex flex-wrap gap-2">
+                            <a href="https://github.com/JanhaviCode" target="_blank" class="btn btn-outline-secondary btn-sm rounded-pill px-3 py-2">
+                                <i class="bi bi-github me-1"></i>JanhaviCode
+                            </a>
+                            <a href="https://leetcode.com/u/JanahviCode/" target="_blank" class="btn btn-leetcode btn-sm rounded-pill px-3 py-2">
+                                <i class="bi bi-code-square me-1"></i>JanahviCode
+                            </a>
+                            <a href="https://www.linkedin.com/in/janhavi-kanojiaaa" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2">
+                                <i class="bi bi-linkedin me-1"></i>janhavi._ kanojiaaa
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Column -->
+                <div class="col-lg-7">
+                    <div class="card p-4 p-md-5 rounded-4 border-0 shadow-sm">
+                        <h4 class="fw-bold mb-3">Send a Message</h4>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label small fw-semibold">Your Name</label>
+                                    <input type="text" class="form-control rounded-3" id="name" placeholder="Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label small fw-semibold">Email Address</label>
+                                    <input type="email" class="form-control rounded-3" id="email" placeholder="name@example.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label small fw-semibold">Subject</label>
+                                    <input type="text" class="form-control rounded-3" id="subject" placeholder="Project collaboration / General inquiry" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label small fw-semibold">Message</label>
+                                    <textarea class="form-control rounded-3" id="message" rows="4" placeholder="Hello Janhavi! I would like to connect with you regarding..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary rounded-pill px-4 py-2 w-100 fw-semibold">
+                                        <i class="bi bi-envelope-paper-fill me-2"></i>Send Message via Email
+                                    </button>
+                                    <small class="text-secondary d-block mt-2 text-center">
+                                        <i class="bi bi-info-circle me-1"></i>Sends directly to <strong>janhaviiee97@gmail.com</strong> through your email client.
+                                    </small>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 border-top">
+        <div class="container text-center">
+            <p class="mb-1 text-secondary small">© 2026 <strong>Janhavi Kanojia</strong> • B.Tech CSE Student Portfolio</p>
+            <div class="d-flex justify-content-center gap-3 my-2">
+                <a href="https://github.com/JanhaviCode" target="_blank" class="text-secondary text-decoration-none small"><i class="bi bi-github me-1"></i>GitHub</a>
+                <span class="text-muted">•</span>
+                <a href="https://leetcode.com/u/JanahviCode/" target="_blank" class="text-secondary text-decoration-none small"><i class="bi bi-code-slash me-1"></i>LeetCode</a>
+                <span class="text-muted">•</span>
+                <a href="https://www.linkedin.com/in/janhavi-kanojiaaa" target="_blank" class="text-secondary text-decoration-none small"><i class="bi bi-linkedin me-1"></i>LinkedIn</a>
+                <span class="text-muted">•</span>
+                <a href="mailto:janhaviiee97@gmail.com" class="text-secondary text-decoration-none small"><i class="bi bi-envelope-at-fill me-1"></i>Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
